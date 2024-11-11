@@ -1,0 +1,15 @@
+streamlit
+streamlit-option-menu
+python-docx
+pymupdf
+streamlit-lottie
+ipyvizzu
+pandas
+scikit-learn
+cloudpickle
+altair
+plotly
+mlflow
+seaborn
+matplotlib
+json
