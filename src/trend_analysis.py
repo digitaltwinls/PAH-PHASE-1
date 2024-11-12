@@ -46,7 +46,7 @@ def display_result_animation():
     # Simulating a loading animation
     animation = ["Analyzing.", "Analyzing..", "Analyzing...", "Analyzing....", "Analyzing....."]
     for i in range(5):
-        placeholder.markdown(f"<h3 style='font-size:24px; color: white;'>{animation[i % len(animation)]}</h3>", unsafe_allow_html=True)
+        placeholder.markdown(f"<h3 style='font-size:24px; color: black;'>{animation[i % len(animation)]}</h3>", unsafe_allow_html=True)
 
         time.sleep(0.5)
     placeholder.empty()
@@ -174,7 +174,7 @@ def trend_analysis():
             x=metadata_df['Documents'], 
             y=metadata_df['Outcome Value'], 
             mode='lines',  # Just lines connecting all points
-            line=dict(color='black'),  # Line color (gray to avoid conflict with categories)
+            line=dict(color='blue'),  # Line color (gray to avoid conflict with categories)
             name='Line Connecting All Points',
             showlegend=False,
             hoverinfo='none'
@@ -204,7 +204,7 @@ def trend_analysis():
             arrowhead=3,
             ax=20,
             ay=-30,
-            font=dict(color='blue'),  # Change annotation text color (labels)
+            font=dict(color='maroon'),  # Change annotation text color (labels)
             arrowcolor='black'  # Change arrow color
             )
 
