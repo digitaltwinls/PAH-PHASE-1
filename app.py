@@ -10,6 +10,7 @@ import pandas as pd
 import plotly.express as px
 from src.document_analysis import document_analysis # for document analysis
 from src.trend_analysis import trend_analysis #for trend analysis
+from src.about_us import main_about_us
 
 # st.set_page_config(layout="wide")
 
@@ -46,13 +47,13 @@ if app == 'Analysis':
 
 #about
 if app == 'About':
-    st.header('About')
-    st.markdown('---')
+    main_about_us()
 
 #contact
 if app == 'Contact':
-    st.header('Contact Us')
+    st.header('Contact')
     st.markdown('---')
+    st.markdown('Please contact us at [kranthi@digitaltwinls.com.au](mailto:kranthi@digitaltwinls.com.au)')
 
 
 hide_st_style = """

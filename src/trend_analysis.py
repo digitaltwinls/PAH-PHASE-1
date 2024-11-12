@@ -246,11 +246,11 @@ def trend_analysis():
     
     # Customize the legend text color
         legend=dict(
-            font=dict(color='white')  # Set the legend text color
+            font=dict(color='black')  # Set the legend text color
         ),
 
-        plot_bgcolor='#08182E',  # Background behind the plot
-        paper_bgcolor='#08182E',  # Background behind the whole chart
+        plot_bgcolor='#FFFFFF',  # Background behind the plot
+        paper_bgcolor='#FFFFFF',  # Background behind the whole chart
     )
 
 # Show the plot
@@ -281,20 +281,20 @@ def trend_analysis():
                                                             ),
                                                             width=600,
                                                             height=400,
-                                                            background='#08182E',  # Chart background color
+                                                            background='#FFFFFF',  # Chart background color
                                                             padding={'top': 20, 'bottom': 20, 'left': 20, 'right': 20}
                                                             ).configure_axis(
-                                                                labelColor='white',
-                                                                titleColor='white',
+                                                                labelColor='black',
+                                                                titleColor='black',
                                                                 grid=False,
                                                                 domain=False
                                                             ).configure_legend(
-                                                                titleColor='white',
-                                                                labelColor='white'
+                                                                titleColor='black',
+                                                                labelColor='black'
                                                             ).configure_title(
                                                                 fontSize=24,
                                                                 font='Arial',
-                                                                color='white'
+                                                                color='black'
                                                             )
             st.altair_chart(chart, use_container_width=True)
 
