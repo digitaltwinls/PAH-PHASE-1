@@ -204,7 +204,7 @@ def trend_analysis():
             arrowhead=3,
             ax=20,
             ay=-30,
-            font=dict(color='maroon'),  # Change annotation text color (labels)
+            font=dict(color='black'),  # Change annotation text color (labels)
             arrowcolor='black'  # Change arrow color
             )
 
