@@ -26,8 +26,7 @@ with st.sidebar:
 
 #Home 
 if app == 'Home':
-    st.header('Digital Twin Learning Solution')
-    st.markdown('---')
+    main_home_page()
 
 #analysis
 if app == 'Analysis':
