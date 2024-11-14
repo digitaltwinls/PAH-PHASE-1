@@ -11,6 +11,8 @@ import plotly.express as px
 from src.document_analysis import document_analysis # for document analysis
 from src.trend_analysis import trend_analysis #for trend analysis
 from src.about_us import main_about_us
+from src.home_page import main_home_page
+
 
 # st.set_page_config(layout="wide")
 
