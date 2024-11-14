@@ -63,13 +63,13 @@ def trend_analysis():
                 "Content-Type": "application/json",
                 "Authorization": f"Bearer {api_key}"
             }
-    uploaded_zip = st.file_uploader("Upload a zipped folder", type=["zip"])
+    uploaded_zip = st.file_uploader("Please Upload a zip file", type=["zip"])
 
     document_names = []
     outcomes = []
     outcomes_probability = []
     if uploaded_zip:
-        st.success('Zip uploaded successfully.')
+        st.success('Zip file uploaded successfully.')
         display_result_animation()
         display_result_animation()
         display_result_animation()
