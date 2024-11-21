@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(layout="wide")
+st.set_page_config(page_title = "Digital Twin Student (DTS)",page_icon = ":books:",layout="wide")
 
 from streamlit_option_menu import option_menu
 import time
