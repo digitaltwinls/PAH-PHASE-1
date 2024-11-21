@@ -55,10 +55,7 @@ alt.renderers.set_embed_options(actions=False)
 
 #altair donut chart for confidence score breakdown
 def make_donut(input_response, input_text, input_color):
-    """
-            Explain this function --------------------> Later    
-    """
-    
+
     if input_color == 'blue':
         chart_color = ['#29b5e8', '#155F7A']
     if input_color == 'green':
